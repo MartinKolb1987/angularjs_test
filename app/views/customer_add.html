@@ -1,0 +1,10 @@
+<div id="add-customer">
+	<p class="bg-success">{{message}}</p>
+	<h1 id="headline">Neuen Kunden anlegen</h1>
+	<p>
+		<input type="text" class="form-control col-xs-3" placeholder="Mustermann GmbH" ng-model="companyName">
+		<input type="text" class="form-control" placeholder="86150" ng-model="postcode"> 
+		<input type="text" class="form-control" placeholder="Augsburg" ng-model="place">
+		<button ng-click="addItem()" class="btn btn-primary">hinzufügen</button>
+	</p>
+</div>

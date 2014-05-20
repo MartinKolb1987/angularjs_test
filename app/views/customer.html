@@ -1,0 +1,17 @@
+<div id="search">
+	<input type="text" ng-model="searchData" placeholder="Suche..."/>
+</div>
+
+<ul id="sorter">
+	<li><a href="" ng-click="predicate='postcode';" class="btn btn-default">PLZ</a></li>
+	<li><a href="" ng-click="predicate='companyName';" class="btn btn-default">Firmenname</a></li>
+</ul>
+
+<ul id="customer-list">
+	<li ng-repeat="customer in customers | orderBy:predicate | filter:searchData">
+		<img src="images/customers/logo_placeholder.png" alt="logo {{customer.companyName}}" />
+		<span class="customer-company-name">{{customer.companyName}}</span>
+		<span class="customer-company-address">{{customer.postcode}} {{customer.place}}</span>
+		<a href="" ng-click="deleteItem($index)" class="remove-item"><span class="icon-minus">-</span></a>
+	</li>
+</ul>

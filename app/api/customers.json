@@ -1,0 +1,22 @@
+[
+	{
+		"companyName": "A Verwaltungs GmbH",
+		"postcode": 86868,
+		"place": "Musterhausen"
+	},
+	{
+		"companyName": "Schreinerei Müller GmbH",
+		"postcode": 12345,
+		"place": "Musterstadt"
+	},
+	{ 
+		"companyName": "Friseur Mayer GmbH",
+		"postcode": 54321,
+		"place": "Hausenmuster"
+	},
+	{ 
+		"companyName": "Obstkorb GbR", 
+		"postcode": 88822,
+		"place": "Musterstadt"
+	}
+]
