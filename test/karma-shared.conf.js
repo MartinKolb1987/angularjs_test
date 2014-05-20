@@ -5,7 +5,7 @@ module.exports = function() {
 		basePath: '../',
 		frameworks: ['jasmine'],
 		reporters: ['progress'],
-		browsers: ['Chrome', 'Safari'],
+		browsers: ['Chrome'],
 		// browsers: ['Chrome', 'Safari', 'PhantomJS'],
 		autoWatch: true,
 
